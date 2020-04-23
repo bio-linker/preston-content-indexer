@@ -25,7 +25,7 @@ curl -X POST "localhost:9200/text_index/_doc/_bulk" -H 'Content-Type: applicatio
 ## Indexing Preston content hashes
 To index the sha256-tlsh pairs listed in `small-hash-tlsh.nq`:
 ```bash
-cat small-hash-tlsh.nq | awk '{ print "{ \"index\" : {} }\n{ \"sha256\" : \"" $1 "\", \"tlsh\" : \"" $2 "\" }"}' > requests
+cat 100-hash-pairs | awk '{ print "{ \"index\" : {} }\n{ \"sha256\" : \"" $1 "\", \"tlsh\" : \"" $2 "\" }"}' > requests
 curl -s -H "Content-Type: application/x-ndjson" -XPOST localhost:9200/test_index/_doc/_bulk?pretty --data-binary "@requests"; echo
 ```
 
