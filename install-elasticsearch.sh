@@ -1,4 +1,5 @@
 #!/bin/bash
+# Found at https://www.willandskill.se/en/install-elasticsearch-6-x-on-ubuntu-18-04-lts/
 
 sudo apt update
 sudo apt install -y apt-transport-https openjdk-8-jre-headless
