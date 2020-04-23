@@ -101,3 +101,7 @@ Just the TLSHs:
           "tlsh" : "hash://tlsh/6A51BDE9EF61861899C64784B370F9204B2291F713C142E5F857CFEABE08C60F96B6D1"
           "tlsh" : "hash://tlsh/2A51FEE5E7628A1879C7A78472B0F8340A2291F717D041E4FC6BCBD67E18960FA279D1"
 ```
+
+# Funding
+
+This work is funded in part by grant [NSF OAC 1839201](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1839201&HistoricalAwards=false) from the National Science Foundation.
